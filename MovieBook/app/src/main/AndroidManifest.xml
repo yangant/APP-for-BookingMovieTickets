@@ -15,7 +15,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RegisterPage"></activity>
+        <activity android:name=".RegisterPage" />
+        <activity android:name=".APPMainActivity" />
+        <activity android:name=".InfoPage" />
+        <activity android:name=".BookingPage"></activity>
     </application>
 
 </manifest>

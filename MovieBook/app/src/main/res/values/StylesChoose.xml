@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="StylesArray">  
+          <item>全部类型</item>  
+          <item>言情</item>          
+          <item>喜剧</item>       
+            <item>动作</item> 
+            <item>恐怖</item>      
+    </string-array>
+</resources>
+

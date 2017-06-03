@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/LinearLayout1"
+    android:id="@+id/MainLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
     <ImageView
+        android:id="@+id/Logo"
         android:layout_width="200dp"
         android:layout_height="100dp"
         android:layout_marginLeft="100dp"
@@ -15,6 +16,7 @@
         android:scaleType="fitCenter"/>
 
     <LinearLayout
+        android:id="@+id/LayoutForUsername"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -22,16 +24,19 @@
         android:layout_marginTop="30dp">
 
         <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="用户名"/>
+            android:id="@+id/UsernameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="用户名"/>
     
         <EditText
-        android:layout_width="200dp"
-        android:layout_height="50dp" />
+            android:id="@+id/UsernameEdit"
+            android:layout_width="200dp"
+            android:layout_height="50dp" />
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/LayoutForPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -39,17 +44,20 @@
         android:layout_marginTop="20dp">
 
         <TextView
+            android:id="@+id/PasswordText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="密码"/>
 
         <EditText
+            android:id="@+id/PasswordEdit"
             android:layout_width="200dp"
             android:layout_height="50dp"
             android:layout_marginLeft="20dp"/>
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/LayoutForButtons"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -57,11 +65,14 @@
         android:layout_marginTop="20dp">
 
         <Button
+            android:id="@+id/LogInButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="登录"/>
+            android:text="登录"
+            android:onClick="LogIn"/>
 
         <Button
+            android:id="@+id/RegisterButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="50dp"

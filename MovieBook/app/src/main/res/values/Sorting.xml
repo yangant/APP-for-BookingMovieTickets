@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="SortingArray">  
+      <item>评分降序</item>            
+      <item>价格降序</item>            
+    </string-array>
+</resources>
