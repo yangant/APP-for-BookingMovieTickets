@@ -63,16 +63,36 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical">
 
-                    <TextView
-                        android:id="@+id/MovieName1"
-                        android:text="加勒比海盗5"
+                    <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="30dp"
-                        android:gravity="center"/>
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/MovieName1"
+                            android:text="加勒比海盗5"
+                            android:textColor="@color/colorMovieTitle"
+                            android:textSize="20dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="40dp"/>
+
+                        <TextView
+                            android:id="@+id/Price1"
+                            android:text="40元"
+                            android:textColor="@color/colorPrice"
+                            android:textSize="20dp"
+                            android:layout_marginLeft="90dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"/>
+                    </LinearLayout>
 
                     <RatingBar
                         android:id="@+id/Rate1"
-                        android:layout_width="match_parent"
+                        android:numStars="5"
+                        android:rating="4.0"
+                        android:layout_gravity="center"
+                        android:layout_width="240dp"
                         android:layout_height="match_parent" />
 
             </LinearLayout>
@@ -98,16 +118,37 @@
                 android:layout_height="match_parent"
                 android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/MovieName2"
-                    android:text="李雷和韩梅梅"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="30dp"
-                    android:gravity="center"/>
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/MovieName2"
+                        android:text="李雷和韩梅梅"
+                        android:textColor="@color/colorMovieTitle"
+                        android:textSize="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="40dp"/>
+
+                    <TextView
+                        android:id="@+id/Price2"
+                        android:text="30元"
+                        android:textColor="@color/colorPrice"
+                        android:textSize="20dp"
+                        android:layout_marginLeft="80dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"/>
+                </LinearLayout>
+
 
                 <RatingBar
                     android:id="@+id/Rate2"
-                    android:layout_width="match_parent"
+                    android:numStars="5"
+                    android:rating="3.5"
+                    android:layout_gravity="center"
+                    android:layout_width="240dp"
                     android:layout_height="match_parent" />
 
             </LinearLayout>
@@ -133,16 +174,37 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical">
 
-                    <TextView
-                        android:id="@+id/MovieName3"
-                        android:text="神奇女侠"
+                    <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="30dp"
-                        android:gravity="center"/>
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/MovieName3"
+                            android:text="神奇女侠"
+                            android:textColor="@color/colorMovieTitle"
+                            android:textSize="20dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="40dp"/>
+
+                        <TextView
+                            android:id="@+id/Price3"
+                            android:text="80元"
+                            android:textColor="@color/colorPrice"
+                            android:textSize="20dp"
+                            android:layout_marginLeft="120dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"/>
+                    </LinearLayout>
+
 
                     <RatingBar
                         android:id="@+id/Rate3"
-                        android:layout_width="match_parent"
+                        android:numStars="5"
+                        android:rating="3.4"
+                        android:layout_gravity="center"
+                        android:layout_width="240dp"
                         android:layout_height="match_parent" />
 
                 </LinearLayout>
@@ -168,16 +230,37 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical">
 
-                    <TextView
-                        android:id="@+id/MovieName4"
-                        android:text="从你的全世界路过"
+                    <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="30dp"
-                        android:gravity="center"/>
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/MovieName4"
+                            android:text="从你的全世界路过"
+                            android:textColor="@color/colorMovieTitle"
+                            android:textSize="20dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="40dp"/>
+
+                        <TextView
+                            android:id="@+id/Price4"
+                            android:text="20元"
+                            android:textColor="@color/colorPrice"
+                            android:textSize="20dp"
+                            android:layout_marginLeft="40dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"/>
+                    </LinearLayout>
+
 
                     <RatingBar
                         android:id="@+id/Rate4"
-                        android:layout_width="match_parent"
+                        android:numStars="5"
+                        android:rating="3.0"
+                        android:layout_gravity="center"
+                        android:layout_width="240dp"
                         android:layout_height="match_parent" />
 
                 </LinearLayout>
@@ -203,16 +286,37 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical">
 
-                    <TextView
-                        android:id="@+id/MovieName5"
-                        android:text="碟仙之毕业照"
+                    <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="30dp"
-                        android:gravity="center"/>
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/MovieName5"
+                            android:text="碟仙之毕业照"
+                            android:textColor="@color/colorMovieTitle"
+                            android:textSize="20dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="40dp"/>
+
+                        <TextView
+                            android:id="@+id/Price5"
+                            android:text="75元"
+                            android:textColor="@color/colorPrice"
+                            android:textSize="20dp"
+                            android:layout_marginLeft="80dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"/>
+                    </LinearLayout>
+
 
                     <RatingBar
                         android:id="@+id/Rate5"
-                        android:layout_width="match_parent"
+                        android:numStars="5"
+                        android:rating="2.7"
+                        android:layout_gravity="center"
+                        android:layout_width="240dp"
                         android:layout_height="match_parent" />
 
                 </LinearLayout>
@@ -238,16 +342,37 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical">
 
-                    <TextView
-                        android:id="@+id/MovieName6"
-                        android:text="吃吃的爱"
+                    <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="30dp"
-                        android:gravity="center"/>
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/MovieName6"
+                            android:text="吃吃的爱"
+                            android:textColor="@color/colorMovieTitle"
+                            android:textSize="20dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="40dp"/>
+
+                        <TextView
+                            android:id="@+id/Price6"
+                            android:text="60元"
+                            android:textColor="@color/colorPrice"
+                            android:textSize="20dp"
+                            android:layout_marginLeft="120dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"/>
+                    </LinearLayout>
+
 
                     <RatingBar
                         android:id="@+id/Rate6"
-                        android:layout_width="match_parent"
+                        android:numStars="5"
+                        android:rating="2.5"
+                        android:layout_gravity="center"
+                        android:layout_width="240dp"
                         android:layout_height="match_parent" />
 
                 </LinearLayout>

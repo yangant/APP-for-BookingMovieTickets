@@ -3,4 +3,11 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="colorUsername">#F0FFFF</color>
+    <color name="colorButtonNom">#00EEEE</color>
+    <color name="colorButtonHigh">#ADFF2F</color>
+    <color name="colorMovieTitle">#CD0000</color>
+    <color name="colorPrice">#CD661D</color>
+    <color name="colorStoryBg">#B0E0E6</color>
+    <color name="colorHolderBg">#9AFF9A</color>
 </resources>
