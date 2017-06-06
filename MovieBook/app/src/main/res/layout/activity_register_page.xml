@@ -4,102 +4,54 @@
     android:id="@+id/MainLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@mipmap/bg">
 
     <ImageView
         android:id="@+id/Logo"
         android:layout_width="200dp"
         android:layout_height="100dp"
-        android:layout_marginLeft="100dp"
+        android:layout_gravity="center"
         android:layout_marginTop="50dp"
-        android:src="@mipmap/logo_round"
+        android:src="@mipmap/logoround1"
         android:scaleType="fitCenter"/>
 
-    <LinearLayout
-        android:id="@+id/LayoutForUsername"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginLeft="80dp"
-        android:layout_marginTop="30dp">
-
-        <TextView
-            android:id="@+id/UsernameText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="用户名"/>
-
-        <EditText
-            android:id="@+id/UsernameEdit"
-            android:layout_width="200dp"
-            android:layout_height="50dp" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/LayoutForPassword"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginLeft="80dp"
-        android:layout_marginTop="0dp">
-
-        <TextView
-            android:id="@+id/PasswordText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="密码"/>
 
         <EditText
             android:id="@+id/PasswordEdit"
             android:layout_width="200dp"
             android:layout_height="50dp"
-            android:layout_marginLeft="20dp"/>
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/LayoutForPasswordRepeat"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginLeft="80dp"
-        android:layout_marginTop="0dp">
-
-        <TextView
-            android:id="@+id/PasswordRepeatText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="确认密码"/>
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:hint="请输入用户名"
+            android:background="@layout/edittext"/>
 
         <EditText
             android:id="@+id/PasswordRepeatEdit"
             android:layout_width="200dp"
             android:layout_height="50dp"
-            android:layout_marginLeft="20dp"/>
-    </LinearLayout>
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:hint="请输入密码"
+            android:background="@layout/edittext"/>
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginLeft="80dp"
-        android:layout_marginTop="0dp">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="验证码"/>
 
         <EditText
             android:layout_width="200dp"
             android:layout_height="50dp"
-            android:layout_marginLeft="20dp"/>
-    </LinearLayout>
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:hint="再次确认密码"
+            android:background="@layout/edittext"/>
 
     <Button
         android:id="@+id/RegisterButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorButtonNom"
+        android:textColorHighlight="@color/colorButtonHigh"
         android:text="注册" />
 
 

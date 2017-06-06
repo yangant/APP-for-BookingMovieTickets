@@ -6,6 +6,36 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dip"
+            android:layout_gravity="bottom"
+            android:background="#33000000"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/titleforpicture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="图片标题"
+                android:textColor="@android:color/white" />
+
+
+        </LinearLayout>
+    </FrameLayout>
+
+
     <LinearLayout
         android:id="@+id/LayoutForSort"
         android:layout_width="fill_parent"
@@ -91,6 +121,7 @@
                         android:id="@+id/Rate1"
                         android:numStars="5"
                         android:rating="4.0"
+                        android:isIndicator="true"
                         android:layout_gravity="center"
                         android:layout_width="240dp"
                         android:layout_height="match_parent" />
@@ -148,6 +179,7 @@
                     android:numStars="5"
                     android:rating="3.5"
                     android:layout_gravity="center"
+                    android:isIndicator="true"
                     android:layout_width="240dp"
                     android:layout_height="match_parent" />
 
@@ -203,6 +235,7 @@
                         android:id="@+id/Rate3"
                         android:numStars="5"
                         android:rating="3.4"
+                        android:isIndicator="true"
                         android:layout_gravity="center"
                         android:layout_width="240dp"
                         android:layout_height="match_parent" />
@@ -259,6 +292,7 @@
                         android:id="@+id/Rate4"
                         android:numStars="5"
                         android:rating="3.0"
+                        android:isIndicator="true"
                         android:layout_gravity="center"
                         android:layout_width="240dp"
                         android:layout_height="match_parent" />
@@ -317,6 +351,7 @@
                         android:rating="2.7"
                         android:layout_gravity="center"
                         android:layout_width="240dp"
+                        android:isIndicator="true"
                         android:layout_height="match_parent" />
 
                 </LinearLayout>
@@ -371,6 +406,7 @@
                         android:id="@+id/Rate6"
                         android:numStars="5"
                         android:rating="2.5"
+                        android:isIndicator="true"
                         android:layout_gravity="center"
                         android:layout_width="240dp"
                         android:layout_height="match_parent" />
